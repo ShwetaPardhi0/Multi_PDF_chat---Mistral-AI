@@ -46,35 +46,35 @@ pip install -r requirements.txt
 
 ## 🧠 Model Setup
 Download a GGUF model of Mistral-7B-Instruct (e.g. mistral-7b-instruct-v0.2.Q4_K_M.gguf)
-from TheBloke HuggingFace models.
+ from TheBloke HuggingFace models.
 
-Place it inside the models/ folder.
+ Place it inside the models/ folder.
 
-Update the model_path in your code if needed.
+ Update the model_path in your code if needed.
 
 ## ▶️ Usage
 Run from Command Line
 
-python multi_pdf_chat.py
-Type your questions about the PDFs in the terminal.
+ python multi_pdf_chat.py
+  Type your questions about the PDFs in the terminal.
 
-Type exit to quit.
+  Type exit to quit.
 
 Run the Streamlit App
 
-streamlit run app.py
-Upload PDFs via the sidebar
+ streamlit run app.py
+  Upload PDFs via the sidebar
 
 Ask questions in the chat interface
 
-Get answers powered by Mistral-7B
+ Get answers powered by Mistral-7B
 
 ## 📝 Requirements
-Python 3.10+
+ Python 3.10+
 
-llama-cpp-python (requires Visual Studio Build Tools on Windows)
+ llama-cpp-python (requires Visual Studio Build Tools on Windows)
 
-Enough RAM/CPU for running Mistral (or GPU if compiled with CUDA)
+ Enough RAM/CPU for running Mistral (or GPU if compiled with CUDA)
 
 ## 📜 License
 This project is for educational purposes.
