@@ -35,9 +35,13 @@ pip install -r requirements.txt
 ## 📂 Project Structure
 
 ├── app.py                # Streamlit web app
+
 ├── multi_pdf_chat.py     # CLI-based chatbot
+
 ├── requirements.txt      # Python dependencies
+
 ├── models/               # Place your GGUF model file here
+
 ├── data/                 # Store your PDF documents here
 
 ## 🧠 Model Setup
